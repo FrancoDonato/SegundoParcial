@@ -7,11 +7,17 @@ body{
     justify-content:center;
 }
 .card{
-    width: 20rem;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
     justify-content:center;
+    box-shadow:10px 10px 15px 15px rgba(11, 29, 128, 0.664);
     padding: 2rem;
+}
+
+.form-floating{
+    width: 80%;
+
 }

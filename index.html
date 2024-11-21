@@ -11,15 +11,16 @@
     <form action="">
 
         <div class="card">
-            <div class="mb-3">
-                <label for="idUser" class="form-label">Usuario</label>
-                <input type="email" class="form-control" id="idUser" aria-describedby="emailHelp">
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="idUser" placeholder="name@example.com" aria-describedby="emailHelp">
+                <label for="idUser">Usuario</label>
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-            </div>
-            <div class="mb-3">
-                <label for="idPass" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="idPass">
-            </div>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Contraseña</label>
+              </div>
+              <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
